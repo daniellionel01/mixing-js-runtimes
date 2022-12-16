@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "deno-code": "deno run -A packages/deno-code/main.ts"
+  },
+  "importMap": "./import_map.json"
+}

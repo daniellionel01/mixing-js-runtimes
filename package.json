@@ -1,0 +1,22 @@
+{
+  "name": "mixing-js-runtimes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/daniellionel01/mixing-js-runtimes.git",
+  "author": "Daniel Kurz <danielkurz03@protonmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "dependencies": {
+    "tsx": "^3.12.1"
+  }
+}

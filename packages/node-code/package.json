@@ -1,0 +1,11 @@
+{
+  "name": "node-code",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx index.ts"
+  },
+  "dependencies": {
+    "node-utils": "*"
+  }
+}
