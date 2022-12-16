@@ -1,11 +1,14 @@
 {
-  "name": "node-code",
+  "name": "@pkg/node-code",
+  "private": true,
   "version": "1.0.0",
   "main": "index.ts",
+  "types": "index.ts",
   "scripts": {
-    "dev": "tsx index.ts"
+    "dev": "tsx main.ts"
   },
   "dependencies": {
-    "node-utils": "*"
+    "chalk": "^5.2.0",
+    "@pkg/node-utils": "*"
   }
 }

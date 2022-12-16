@@ -1,3 +1,7 @@
 {
-  "imports": {}
+  "imports": {
+    "@pkg/node-utils": "./packages/node-utils/index.ts",
+    "@pkg/node-code": "./packages/node-code/index.ts",
+    "chalk": "npm:chalk@5"
+  }
 }
