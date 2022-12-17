@@ -1,0 +1,13 @@
+{
+  "name": "@pkg/deno-from-node",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "dev": "tsx index.ts"
+  },
+  "dependencies": {
+    "@npm/deno-code": "*"
+  }
+}

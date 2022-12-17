@@ -1,7 +1,8 @@
 {
   "tasks": {
     "cache": "deno cache packages/deno-code/deps.ts",
-    "dev": "deno run -A packages/deno-code/main.ts"
+    "dev": "deno run -A packages/deno-code/main.ts",
+    "npm": "deno run -A scripts/build_npm.ts"
   },
   "importMap": "./import_map.json"
 }

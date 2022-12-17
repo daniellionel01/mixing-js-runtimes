@@ -7,11 +7,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "npm/*"
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --parallel"
+    "dev": "turbo run dev --parallel",
+    "npm": "node npm/esm/deno-code/main.js"
   },
   "devDependencies": {
     "turbo": "^1.6.3"
